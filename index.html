@@ -9,7 +9,18 @@
 </head>
 <body>
     <button id = "add-gate">Add AND Gate</button>
-    <svg id = "gate-container" wiewbox = "0 0 900 500"></svg>
+    
+    <svg id = "gate-container" wiewBox = "0 0 900 500">
+        <g transform = "translate(20, 20)" data-part = 1>
+            <path d = "M 10 0 H 40 A 20 20 0 0 1 40 40 H 10 Z"></path>
+            <line x1 = "0" x2 = "10" y1 = "10" y2 = 10></line>
+            <line x1 = "0" x2 = "10" y1 = "30" y2 = 30></line>
+            <line x1 = "60" x2 = "70" y1 = "20" y2 = 20></line>
+            <circle cx = "0" cy = "10" r = "3"></circle>
+            <circle cx = "0" cy = "30" r = "3"></circle>
+            <circle cx = "70" cy = "20" r = "3"></circle>
+        </g>
+    </svg>
     <script src = "src/main.js"></script>
 </body>
 </html>
